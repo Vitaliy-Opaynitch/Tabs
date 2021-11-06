@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 19" width="20" height="19">
+	<title>favourite copy 3</title>
+	<defs>
+		<image width="20" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAAXNSR0IArs4c6QAAAUxJREFUOE+llN1Rg0AUhc9ZChArMAz4bGzArJUYO0gHkg60g5RgB1msgHdloARsgOuwEAZC+Iv7wgxz78e5ew6XmHHkW2sQLgPzOVXOqQJJtYtCUgAuFG/pmXysZxqY6BCQtwrCD/pmdzWwo66i5FD0xlSOKpSOupMu7umbcEjlIPCCuhNjVKUFVi4WdyBW9vLJNQQugPWAkhhEDkEGSGafjpPRO0a8PNaU94MD71mPZgA8XIup+36hqKuRU71GISX05kpoBfNM3JjyD2gDs0ltK7LmKDkuUil8ZWAOTajOm+XnyYDczIKKRAy+dLu2l8NFQCCmHz2OA5NNvMRx+lFHVF9hspFZ49ZFy4EiEaAO9m9gEfbut1oW2UVTJNWrevcBJUhUyHtT5rM5NgkOthB5sS8LPrdrurGxyxQ7FDDnoF4a7MexhcJ7e539AVL8l/7iAX5NAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="favourite copy 3" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

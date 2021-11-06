@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 19" width="20" height="19">
+	<title>favourite</title>
+	<defs>
+		<image width="20" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAAXNSR0IArs4c6QAAAWpJREFUOE+llE1SwkAQhV+PLHRlPIFwAnFnoBIZg+cQb8ANhBvoDTiCe4saUhSVLTcgR8CVLFLT1oSYSiA/EHuTqkz3l9fzukM4Ib6WwYCYraHb+6xLp7oEpZSlW1cbgC0R7W6klNuqmlrgfBlMALztIfzhOb1xY2BW3R5CWxH9dKpUVirMq0t1TT3HNqoLoxR4rO6vvlplDIxdJNwSow0mi4i7GmQRuFskg0FrAd4yIQQjNE+hOXxyez6VtFVnftn5lPatXS4A3DWlJHXfQuhB3LJarbpaCwO9bgiNYbLfX6em/AOawuLByioy5ghAnaWS8eq59iydgcPi+TIwrT+eCPU9xx5kc4/m8BygGZ+h83BfB1yf47jn2DlRRQr5xHbjtCZAH4yZNtsAmB3O3a+I0JHSDgtNUSpo6xY2yaGvgcmzYxuT0jCTcMEYMeHFvNSAzObkWk62ZqyBxSHo8BqSj49EtHvP/s5+AQePo1S8sXHVAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="favourite" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

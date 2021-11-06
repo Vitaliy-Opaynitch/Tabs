@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44f6c1905e.js" crossorigin="anonymous"></script>
+    <link type="image/x-icon" href="https://img.icons8.com/doodle/48/000000/nintendo-switch-handheld.png"
+        rel="shortcut icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Tabs(JQuery)
+    </title>
+</head>
+
+<body>
+    <section class="main__section section tabs">
+        <ul class="nav__list list">
+
+            <li class="list__item" data-tab="1">
+                <a href="#tab-1" class="tab-link"> <svg class="svg-icon">
+                        <use xlink:href="./svg/spryte.svg#tooltip"></use>
+                    </svg> Information </a>
+            </li>
+
+            <li class="list__item" data-tab="2">
+                <a href="#tab-2" class="tab-link"> <svg class="svg-icon">
+                        <use xlink:href="./svg/spryte.svg#card"></use>
+                    </svg> Ratings info</a>
+            </li>
+
+            <li class="list__item" data-tab="3">
+                <a href="#tab-3" class="tab-link"> <svg class="svg-icon">
+                        <use xlink:href="./svg/spryte.svg#basket"></use>
+                    </svg> Where to buy</a>
+            </li>
+        </ul>
+        <div class="content ninja" id="tab-1">
+            <div class="content_left left-block">
+                <img src="./img/game_logo.png" alt="far_cry_foto" class="left-block__foto">
+
+                <div class="left-block__stars">
+                    <a href="#" class="left-block__star">
+                        <object type="image/svg+xml" data="icon.svg">
+                            <img src="./svg/star_yellow.svg">
+                        </object>
+                    </a>
+
+                    <a href="#" class="left-block__star">
+                        <object type="image/svg+xml" data="icon.svg">
+                            <img src="./svg/star_yellow.svg">
+                        </object>
+                    </a>
+
+                    <a href="#" class="left-block__star">
+                        <object type="image/svg+xml" data="icon.svg">
+                            <img src="./svg/star_yellow.svg">
+                        </object>
+                    </a>
+
+                    <a href="#" class="left-block__star">
+                        <object type="image/svg+xml" data="icon.svg" class="star">
+                            <img src="./svg/star_yellow.svg">
+                        </object>
+                    </a>
+
+                    <a href="#" class="left-block__star">
+                        <object type="image/svg+xml" data="picture.svg" class="star">
+                            <img src="./svg/star.svg">
+                        </object>
+                    </a>
+                </div>
+            </div>
+
+            <div class="content_right right-block">
+                <div class="right-block__up up">
+                    <h1 class="up__title">
+                        FarCry 4 <br>
+                        <span class="up__title--small">First Released Nov 17, 2014</span>
+                    </h1>
+                    <img src="./img/rating.png" alt="rating">
+                </div>
+
+                <div class="right-block__middle middle">
+                    <p class="middle__text">In Far Cry 4, players find themselves in Kyrat, a breathtaking,
+                        perilous
+                        and wild region of the Hima layas struggling under the regime of a despotic
+                        self-appointed king.
+                    </p>
+                </div>
+
+                <div class="right-block__down down">
+                    <p class="down__discount"> <span class="down__discount--small">20% OFF! <br> </span> $59.96</p>
+                    <a href="https://www.ubisoft.com/ru-ru/game/far-cry/far-cry-4"><button class="down__btn">Buy it
+                            now</button></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content rating" id="tab-2">
+            <div class="rating__text">
+                <p>Far Cry 4 has become the best-selling game and the most successful launch in a
+                    series of other popular
+                    games in the UK for all formats in the first game release. Grabula is also one of the best-selling
+                    gris
+                    in the United States for The NPD Group's version. As of December 31, 2014, nearly 7 million copies
+                    were
+                    sold.</p>
+            </div>
+
+            <div class="rating__text">
+                <p>You can read people's reviews about this game on the official forum <a
+                        href="https://forums.ubisoft.com/forumdisplay.php/739-Far-Cry-4"
+                        class="rating__text--color">"Link to forum"</a> </p>
+            </div>
+
+        </div>
+
+        <div class="content whtbuy" id="tab-3">
+            <p class="whtbuy__title">You can buy <span class="whtbuy__title--bold">Far Cry <span
+                        class="whtbuy__title--red">4</span>
+                </span>on this resources:</p>
+
+            <div class="whtbuy__items item">
+                <a href="https://store.ubi.com/ru/far-cry--4/56c4947a88a7e300458b45e2.html" class="item__link">
+                    <p><i class="fas fa-gamepad"></i> Ubisoft official</p>
+                </a>
+                <a href="https://store.playstation.com/ru-ua/product/EP0001-CUSA00462_00-FC4GAMEPS4000001/"
+                    class="item__link">
+                    <p><i class="fab fa-playstation"></i> Playstation store</p>
+                </a>
+                <a href="https://store.steampowered.com/app/298110/Far_Cry_4/" class="item__link">
+                    <p><i class="fab fa-steam"></i> Steam </p>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
